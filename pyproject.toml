@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "fastapi_ml_pytest"
+version = "0.1.0"
+description = ""
+authors = ["valerielim <valerieeelimyh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.60.1"
+uvicorn = "^0.11.6"
+python-multipart = "^0.0.5"
+aiofiles = "^0.5.0"
+pandas = "^1.3.0"
+sklearn = "^0.0"
+lightgbm = "^3.2.1"
+SQLAlchemy = "1.1.0"
+databases = "^0.4.3"
+aiosqlite = "^0.17.0"
+pytest = "6.2.3"
+requests = "2.25.1"
+python-dotenv = "0.15.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

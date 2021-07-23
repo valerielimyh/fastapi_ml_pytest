@@ -46,16 +46,16 @@ Test out the APIs at
 [http://localhost:8080/docs](http://localhost:8080/docs)
 
 You should see:
-![fastapi_ml_pytest_docs_landing_page](https://raw.githubusercontent.com/valerielimyh/fastapi_ml_pytest/master/fastapi_ml_pytest_docs_landing_page.jpg)
+![fastapi_ml_pytest_docs_landing_page](https://github.com/valerielimyh/fastapi_ml_pytest/blob/master/fastapi_ml_pytest_docs_landing_page.png)
 
 1. To retrieve a list of titles to a provided genre.
-![fastapi_ml_pytest_docs_landing_page.jpg](https://raw.githubusercontent.com/valerielimyh/fastapi_ml_pytest/master/fastapi_ml_pytest_docs_landing_page.jpg)
+![fastapi_ml_pytest_docs_landing_page.jpg](https://github.com/valerielimyh/fastapi_ml_pytest/blob/master/fastapi_ml_pytest_docs_get_titles.png)
 
 2. To retrieve a list of classified genres in the database
-![fastapi_ml_pytest_docs_get_titles](https://raw.githubusercontent.com/valerielimyh/fastapi_ml_pytest/master/fastapi_ml_pytest_docs_get_titles.jpg)
+![fastapi_ml_pytest_docs_get_titles](https://github.com/valerielimyh/fastapi_ml_pytest/blob/master/fastapi_ml_pytest_docs_get_genre.png)
 
 3. To upload input data (see [test.csv](https://github.com/valerielimyh/multi_features_multiclass_text_classification/blob/master/data/test.csv) as a sample) persist the results and titles into an embedded database (sqlite)
-![fastapi_ml_pytest_docs_get_predictions](https://raw.githubusercontent.com/valerielimyh/fastapi_ml_pytest/master/fastapi_ml_pytest_docs_get_predictions.jpg)
+![fastapi_ml_pytest_docs_get_predictions](https://github.com/valerielimyh/fastapi_ml_pytest/blob/master/fastapi_ml_pytest_docs_get_predictions.png)
 
 	if data doesn't exist in db, new titles and predictions will be appended.
 	else, they won't be appended 
